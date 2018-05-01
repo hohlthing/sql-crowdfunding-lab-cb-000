@@ -1,4 +1,4 @@
-INSERT INTO users (name, age) VALUES 
+INSERT INTO users (name, age) VALUES
 ("Mike", 42),
 ("Jos", 11),
 ("Megan", 9),
@@ -19,3 +19,15 @@ INSERT INTO users (name, age) VALUES
 ("Fred", 3),
 ("Barney", 2),
 ("Betty", 1);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("Project 1", "a", 50, "2-1-2018", "9-1-2018"),
+("Project 2", "b", 100, "2-1-2018", "9-1-2018"),
+("Project 3", "c", 150, "2-1-2018", "9-1-2018"),
+("Project 4", "a", 200, "2-1-2018", "9-1-2018"),
+("Project 5", "b", 250, "2-1-2018", "9-1-2018"),
+("Project 6", "c", 300, "2-1-2018", "9-1-2018"),
+("Project 7", "a", 350, "2-1-2018", "9-1-2018"),
+("Project 8", "b", 400, "2-1-2018", "9-1-2018"),
+("Project 9", "c", 550, "2-1-2018", "9-1-2018"),
+("Project 10", "a", 500, "2-1-2018", "9-1-2018");
